@@ -1,0 +1,86 @@
+.metadata {
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.metadata button {
+  margin-top: -24px;
+  margin-left: 2px;
+  float: right;
+}
+
+ol.playlist {
+  padding: 0;
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+ol.playlist li {
+  margin-bottom: 5px;
+}
+
+ol.playlist li .item {
+  padding: 2px;
+  height: 35px;
+  width: 100%;
+  text-align: left;
+  display: grid;
+  position: relative;
+  grid-template-columns: 0.5fr 4fr 3fr 3fr 0.6fr 0.5fr;
+  grid-column-gap: 10px;
+}
+
+ol.playlist li .active {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(19, 124, 189);
+}
+
+ol.playlist li .item span.clickable {
+  cursor: pointer;
+}
+
+ol.playlist li .item img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+ol.playlist li .item .overlay {
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+ol.playlist li .item .overlay svg {
+  height: 30px;
+  width: 30px;
+}
+
+ol.playlist li .item .image:hover > .overlay {
+  display: block;
+  cursor: pointer;
+}
+
+ol.playlist li .item .image:hover > .overlayActive {
+  display: none;
+}
+
+ol.playlist li .item .overlayActive {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+ol.playlist li .item .overlayActive svg {
+  height: 25px;
+  width: 25px;
+  padding-top: 4px;
+  padding-left: 3px;
+}
+
+ol.playlist li .item div.bp3-text-overflow-ellipsis {
+  padding-top: 6px;
+}

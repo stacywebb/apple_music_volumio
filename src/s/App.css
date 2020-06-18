@@ -1,0 +1,30 @@
+.app {
+  padding: 20px;
+}
+
+.mainSpinner {
+  padding-top: 200px;
+}
+
+.footer {
+  margin-bottom: 50px;
+}
+
+.footer .left {
+  margin-left: 5px;
+  margin-top: 10px;
+  float: left;
+}
+
+.footer .right {
+  float: right;
+}
+
+span.link {
+  color: #48aff0;
+  cursor: pointer;
+}
+
+span.link:hover {
+  text-decoration: underline;
+}

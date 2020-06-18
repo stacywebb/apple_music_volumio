@@ -1,0 +1,12 @@
+.panel .searchBar {
+  width: 400px;
+}
+
+.panel .spinner {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.panel .bp3-tab-panel {
+  min-height: 555px;
+}

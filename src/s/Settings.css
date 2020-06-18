@@ -1,0 +1,106 @@
+.settings {
+  position: relative;
+  min-height: 600px;
+}
+
+.settings .nux {
+  display: flex;
+  justify-content: space-around;
+}
+
+.settings .nux button.apple img {
+  height: 60px;
+  vertical-align: middle;
+}
+.settings .nux button.apple > span > span {
+  padding: 10px;
+}
+
+.settings .nux button.apple {
+  padding: 0;
+  margin: 15px;
+  display: inline-block;
+  border-radius: 13px;
+}
+
+.settings .help {
+  cursor: pointer;
+}
+
+.settings .bp3-spinner {
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+
+.settings table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.settings table td {
+  min-height: 40px;
+  width: 50%;
+  vertical-align: middle;
+  box-shadow: none !important;
+}
+
+.settings table td.right {
+  text-align: right;
+}
+
+.settings table img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.settings table img.rounded {
+  border-radius: 5px;
+}
+
+.settings ul {
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.settings ul li {
+  margin-bottom: 5px;
+}
+
+.settings .login button {
+  margin: 5px;
+}
+
+.settings .login button.google,
+.settings .login button.google:hover {
+  color: #757575;
+  background-color: #fff;
+}
+
+.settings .login button.twitter,
+.settings .login button.twitter:hover {
+  background-color: #55acee;
+}
+
+.settings .login button.facebook,
+.settings .login button.facebook:hover {
+  background-color: #3b5998;
+}
+
+.settings .login button span {
+  width: 100%;
+}
+
+.settings .login button span img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.settings .footer {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

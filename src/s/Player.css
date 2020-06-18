@@ -1,0 +1,108 @@
+.player {
+  height: 140px;
+  min-width: 680px;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.player .bp3-slider {
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.player .bp3-slider-label {
+  display: none;
+}
+
+.player .bp3-popover-target {
+  display: block;
+}
+
+.player .duration {
+  padding-bottom: 12px;
+}
+
+.player .duration span {
+  font-size: 10px;
+}
+
+.player .duration .start {
+  float: left;
+  margin-left: 5px;
+}
+
+.player .duration .end {
+  float: right;
+  margin-right: 5px;
+}
+
+.player .content {
+  display: inline;
+}
+
+.player .content .contentControls {
+  display: block;
+}
+
+.player .content .contentButtons {
+  float: left;
+  margin-top: 10px;
+}
+
+.player .content .contentControls .contentVolumeIcon {
+  position: absolute;
+  left: 0;
+  margin-top: 60px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.player .content .contentControls .contentVolumeIconRight {
+  position: absolute;
+  left: 0;
+  margin-top: 60px;
+  margin-left: 155px;
+  cursor: pointer;
+}
+
+.player .content .contentVolume {
+  float: left;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 30px;
+  width: 100px;
+  min-width: 100px;
+}
+
+.player .content .contentVolume .bp3-slider-handle {
+  margin-top: 3px;
+  width: 10px;
+  height: 10px;
+}
+
+.player .content .contentVolume .bp3-intent-primary {
+  background-color: #8a9ba8;
+}
+
+.player .content .contentTrack {
+  margin: 0 auto;
+  width: 340px;
+  height: 80px;
+  display: inline-block;
+}
+
+.player .content .contentTrack .bp3-spinner {
+  margin-top: 10px;
+}
+
+.player .content .contentLogo {
+  float: right;
+  width: 80px;
+  height: 80px;
+}
+
+.player .content .contentLogo svg {
+  width: 80px;
+  height: 80px;
+}

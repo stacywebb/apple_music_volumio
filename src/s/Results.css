@@ -1,0 +1,13 @@
+.songResults ol {
+  padding: 0;
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  list-style-type: none;
+}
+
+.songResults ol li {
+  width: 333px;
+}
